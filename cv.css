@@ -190,6 +190,9 @@ body {
     object-fit: cover;
     border: 2px solid #ecf0f1;
 }
+.left-list{
+   margin-left: 5px;
+}
 
 /* =====================
    MEDIA QUERIES
