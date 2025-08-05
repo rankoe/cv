@@ -41,7 +41,7 @@ body {
 }
 .left-column {
     width: 35%;
-    background: #f4f6fb;
+    background: white;
     border-radius: 8px;
     padding: 10px;
     font-size: 0.92em;
@@ -98,6 +98,12 @@ body {
     left: 0;
     color: #3498db;
     font-weight: bold;
+}
+.left-list li {
+    margin-left: 15px; /* Ajusta el valor según lo que necesites */
+}
+.skills-list li {
+    font-size: 0.92em;
 }
 
 /* =====================
@@ -184,15 +190,13 @@ body {
     text-decoration: underline;
 }
 .profile-photo {
-    width: 100px;
-    height: 100px;
+    width: 105px;
+    height: 105px;
     border-radius: 50%;
-    object-fit: cover;
-    border: 2px solid #ecf0f1;
+    object-fit: fill;
+    border: 3px solid #ecf0f1;
 }
-.left-list{
-   margin-left: 10px;
-}
+
 
 /* =====================
    MEDIA QUERIES
